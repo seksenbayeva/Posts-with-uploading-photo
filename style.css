@@ -1,0 +1,75 @@
+body {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.profile-card {
+    border: 2px solid #45009D;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-link {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-link:hover {
+    text-decoration: none;
+    color: #cc3700;
+}
+
+.btn-create-feed {
+    background-color: #45009D !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    margin-top: 20px !important;
+}
+
+.btn-create-feed:hover {
+    background-color: #090807 !important;
+    transition: 0.5s !important;
+}
+
+h1 {
+    color: #db1b1b;
+    text-align: center;
+    margin-bottom: 50px !important;
+    margin-top: 3% !important;
+}
+
+img {
+    width: 7%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around; /* Равномерное распределение между изображениями */
+    align-items: center; /* Выравнивание по вертикали */
+    background-color: #45009D;
+}
+
+.navbar-brand img {
+    width: 50px; /* Ширина изображений */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin: 0; /* Убирает отступы */
+    /* Дополнительные стили по вашему усмотрению */
+}
+
+
+.profile-image {
+    width: 200px; /* Замените это значение на ваше предпочтение */
+    height: auto; /* Автоматическое масштабирование высоты с учетом ширины */
+}
+
+
+	
